@@ -20,7 +20,7 @@ UIplay.py   GUI界面人机对弈
 ## 二、提供了两个框架的版本进行训练：
 使用pytorch版本请设置config.py 中CONFIG['use_frame'] = 'pytorch'，
 
-使用pytorch版本请设置config.py 中CONFIG['use_frame'] = 'paddle'。
+使用paddle版本请设置config.py 中CONFIG['use_frame'] = 'paddle'。
 
 不管是使用哪个框架，都一定要安装gpu版本，而且要用英伟达显卡，因为我们蒙特卡洛一次走此要进行上千次的神经网络推理，所以必须要快！
 
@@ -50,3 +50,12 @@ aistudio上一键可运行项目：https://aistudio.baidu.com/aistudio/projectde
 5、书籍：强化学习第二版
 
 后续应该会对该AI继续训练下去，亲手造一个超强的下棋AI简直太酷了！
+
+## 维护与在线文档
+
+本仓库是 [tensorfly-gpu/aichess](https://github.com/tensorfly-gpu/aichess) 的 Fork，保留上游来源、目录约定及许可证。
+
+- [在线维护文档](https://xiaoshecode.github.io/xiaoshecode/repos/AI_Chess_Alphazero/)
+- [仓库维护说明](MAINTENANCE.md)：用途、环境、目录结构、检查结果和待验证事项。
+
+2026-10-30 的检查范围以维护说明为准；语法检查通过不代表完整构建、模型训练或硬件验证通过。
